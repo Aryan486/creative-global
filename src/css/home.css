@@ -225,12 +225,12 @@
   display:flex;
   justify-content: center;
 }
-.section-3-card-images-temp{
+/* .section-3-card-images-temp{
   align-self: center;
   cursor: pointer;
   width: 17vh;
   height: 12vh;
-}
+} */
 
 .section-4{
   display: flex;
