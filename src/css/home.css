@@ -251,3 +251,71 @@
   font-size: 40vw;
   color:rgba(0,0,0,0.2);
 }
+.section-5{
+  font-family: 'Sen', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin:10vh 0 0 0;
+}
+
+.section-5-header{
+  font-weight: bolder;
+  font-size: 10vh;
+  margin: 0 0 0 10%;
+}
+.sub-section-1{
+  display: flex;
+  flex-direction:row;
+}
+.sub-section-1-temp{
+  display: flex;
+  flex-direction:row;
+}
+.left-1,.right-1{
+  display: flex;
+  flex: 0.5;
+  height: 80vh;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.section-5-service-text{
+  margin: 0;
+  font-size: 7vh;
+  font-weight: normal;
+}
+.section-5-service-sub-text{
+  margin: 3% 0 0 0;
+  font-size: 3vh;
+  font-weight: lighter;
+}
+.section-5-button{
+  padding:1.5vh;
+  width: 20%;
+  background-color: white;
+  font-family: 'Sen', sans-serif;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+  .section-5-header{
+    font-weight: bolder;
+    font-size: 10vw;
+    margin: 0 0 0 10%;
+  }
+  .sub-section-1{
+    display: flex;
+    flex-direction:column;
+  }
+  .sub-section-1-temp{
+    display: flex;
+    flex-direction:column-reverse;
+  }
+  .section-5-button{
+    padding:1.5vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+  }
+}
