@@ -4,26 +4,26 @@ import ServicesImage from "../assets/images/section1a.png"
 import Work from "../assets/images/section1Work.png"
 import JoinUs from "../assets/images/section1Join.png"
 import ContactUs from "../assets/images/section1Contact.png"
-import Cipla from "../assets/images/cipla.png"
-import Decathlon from "../assets/images/decathlon.png"
-import Du from "../assets/images/du.png"
-import Dubai from "../assets/images/dubai.png"
-import Exide from "../assets/images/exide.png"
-import IndianOil from "../assets/images/indianOil.png"
-import Itc from "../assets/images/itc.png"
-import Jio from "../assets/images/jio.png"
-import Jcb from "../assets/images/jcb.png"
-import Mercedes from "../assets/images/mercedes.png"
-import SwachBharat from "../assets/images/swachhbharat.png"
-import Lenovo from "../assets/images/lenovo.png"
-import Welspun from "../assets/images/welspun.png"
-import SeedWorks from "../assets/images/seedWorks.png"
+import Cipla from "../assets/images/Cipla.png"
+import DECATHLON from "../assets/images/DECATHLON.png"
+import du from "../assets/images/du.png"
+import DUBAI from "../assets/images/DUBAI.png"
+import EXIDE from "../assets/images/EXIDE.png"
+import IndianOil from "../assets/images/IndianOil.png"
+import ITC from "../assets/images/ITC.png"
+import Jio from "../assets/images/Jio.png"
+import JCB from "../assets/images/JCB.png"
+import Mercedes from "../assets/images/Mercedes.png"
+import SwatchaBharat from "../assets/images/SwatchaBharat.png"
+import Lenovo from "../assets/images/Lenovo.png"
+import WELSPUN from "../assets/images/WELSPUN.png"
+import SeedWorks from "../assets/images/SeedWorks.png"
 import Rectangle from "../assets/images/section4Rectangle.png"
 
 export default function Home() {
 
-  const arr1=[IndianOil,Itc,Jio,Jcb,Mercedes,SwachBharat,Du]
-  const arr2=[Cipla,Decathlon,Exide,Welspun,SeedWorks,Dubai]
+  const arr1=[IndianOil,ITC,Jio,JCB,Mercedes,SwatchaBharat,du]
+  const arr2=[Cipla,DECATHLON,EXIDE,Lenovo,WELSPUN,SeedWorks,DUBAI]
 
   return (
     <div id='scroll'>
@@ -93,9 +93,6 @@ export default function Home() {
                   </div>
                 )
               })}
-              <div className="section-3-card-temp">
-                  <img className='section-3-card-images-temp' src={Lenovo} alt="Our partner" title="Our partner" />
-              </div>
               </div>
             </marquee>
             </div>
