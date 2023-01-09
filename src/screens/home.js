@@ -143,7 +143,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='sub-section-1'>
+            <div className='sub-section-1-temp'>
               <div className='left-1'>
               <div style={{display:"flex",flexDirection:'column'}}>
                   <h1 className='section-5-service-text'>Immersive Technology</h1>
